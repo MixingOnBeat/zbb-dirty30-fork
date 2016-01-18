@@ -1,0 +1,8 @@
+# zbb-badip-fork .gitattributes file.
+# zbb-badip-fork repository can be found here:
+# https://github.com/Maikuolan/zbb-badip-fork/
+
+# Written based on the .gitattributes guide available from:
+# https://help.github.com/articles/dealing-with-line-endings/
+
+* text=auto
