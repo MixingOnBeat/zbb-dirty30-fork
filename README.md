@@ -52,6 +52,13 @@ History (*change_log*) of this repository (and of those updates merged into it) 
 - H1 LLC CIDRs updated.
 - This repository, `zbb-dirty30-fork`, created, on this date, with all aforementioned updates implemented into its base. All changes committed to GitHub and then announced to Spambot Security.
 
+#####2016-01-18 (Again)
+- Label typo found by BEZ in the GoDaddy.com CIDRs (Thank you!); Fixed.
+- LeaseWeb CIDR section from `zbb-dirty30-fork` moved to `zbb-badip-fork` and merged with the two LeaseWeb CIDR sections there (because of cross-over and duplication).
+- CloudFlare CIDRs updated (new ASNs found by BEZ).
+- Voxility LLC CIDRs updated (new ASNs found by BEZ).
+- Repository updated with new changes.
+
 ---
 
 EOF
