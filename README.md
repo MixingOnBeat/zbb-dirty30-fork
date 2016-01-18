@@ -2,7 +2,7 @@
 
 This repository, "zbb-dirty30-fork", is for tracking updates necessary for the `dirty30.inc` file of ZB Block prior its next eventual mainlined release. I created this to expedite distribution of updates for until this next mainlined release occurs. I'll probably delete this repository afterwards, because it'll no longer serve a purpose after that time.
 
-There's also another repository, "[zbb-badip-fork](https://github.com/Maikuolan/zbb-badip-fork)", for tracking updates necessary for the `dirty30.inc` file of ZB Block prior its next eventual mainlined release.
+There's also another repository, "[zbb-badip-fork](https://github.com/Maikuolan/zbb-badip-fork)", for tracking updates necessary for the `badip.inc` file of ZB Block prior its next eventual mainlined release.
 
 ZB Block (and therefore this repository) is licensed under GNU/GPL v2 and can be obtained free of charge from **[http://www.spambotsecurity.com/zbblock_download.php](http://www.spambotsecurity.com/zbblock_download.php)**.
 
