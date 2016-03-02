@@ -64,6 +64,14 @@ History (*change_log*) of this repository (and of those updates merged into it) 
 - Aruba S.p.A. CIDRs updated.
 - Repository updated with new changes.
 
+#####2016-03-02
+- PT Excelcomindo Pratama CIDRs updated.
+- Hesabgar Pardaz Gharb Co. CIDRs updated.
+- TELEBUCARAMANGA S.A. CIDRs updated.
+- PARSONLINE CIDRs updated.
+- Voxility LLC CIDRs updated.
+- Repository updated with new changes.
+
 ---
 
 EOF
