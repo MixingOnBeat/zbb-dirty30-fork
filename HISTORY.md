@@ -59,3 +59,20 @@ History/Changelog of this repository (and of those updates merged into it) is as
 #####2016-03-10
 - Telecommunication Infrastructure Company CIDRs updated.
 - Repository updated with new changes.
+
+#####2016-03-17
+- CloudFlare, Inc. CIDRs updated.
+
+#####2016-03-28
+- New Dream Network, LLC CIDRs updated.
+- IPGLOBE DATACENTER CIDRs updated.
+
+#####2016-04-18
+- ISPsystem CIDRs updated.
+- Dattatec.com CIDRs updated.
+
+#####2016-04-19
+- HostDime.com, Inc. CIDRs updated.
+
+#####2016-04-22
+- Repository updated with new changes.
