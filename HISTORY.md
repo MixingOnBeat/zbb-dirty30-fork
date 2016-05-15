@@ -76,3 +76,16 @@ History/Changelog of this repository (and of those updates merged into it) is as
 
 #####2016-04-22
 - Repository updated with new changes.
+
+#####2016-05-15
+- CloudFlare CIDRs updated.
+- Mobin Net Communication CIDRs updated.
+- Three Hutchison CIDRs updated.
+- H1 LLC CIDRs updated.
+- FriendFinder Networks CIDRs updated (new ASNs).
+- OBEC CIDRs updated.
+- Voxility CIDRs updated.
+- PARSONLINE CIDRs updated.
+- Hesabgar Pardaz Gharb Co. CIDRs updated.
+- PT Excelcomindo Pratama CIDRs updated.
+- Repository updated with new changes.
