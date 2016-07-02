@@ -89,3 +89,8 @@ History/Changelog of this repository (and of those updates merged into it) is as
 - Hesabgar Pardaz Gharb Co. CIDRs updated.
 - PT Excelcomindo Pratama CIDRs updated.
 - Repository updated with new changes.
+
+#####2016-07-02
+- IPGLOBE DATACENTER CIDRs updated.
+- Aruba S.p.A. / Aruba SAS CIDRs updated.
+- Repository updated with new changes.

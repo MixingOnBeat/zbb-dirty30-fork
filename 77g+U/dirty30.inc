@@ -20,7 +20,7 @@
  * @package Maikuolan/zbb-dirty30-fork
  */
 
-$zbbversion .= ' / D30-2016-05+U.0'; // Version number goes here. (product code)-(Year)-(Month)(issue letter)(+U = Unofficial fork, non-mainlined release).(Build number)
+$zbbversion .= ' / D30-2016-07+U.0'; // Version number goes here. (product code)-(Year)-(Month)(issue letter)(+U = Unofficial fork, non-mainlined release).(Build number)
 
 // *php 5 fix
 global $whyblockout, $ax;
@@ -29,7 +29,7 @@ global $whyblockout, $ax;
 
 // *INFECTED WEBSITES*
 
-// Landis Holdings Inc (updated 2016.01.18 / checked 2016.03.28)
+// Landis Holdings Inc (updated 2016.01.18 / checked 2016.07.02)
 // AS11042
 $ax += cidrblock($address,'69.73.128.0/18','Landis Holdings Inc, Bothost and/or Server Farm. Not an access provider ISP (ASN-AS11042-0). ');
 $ax += cidrblock($address,'209.140.16.0/22','Landis Holdings Inc, Bothost and/or Server Farm. Not an access provider ISP (ASN-AS11042-1). ');
@@ -131,53 +131,60 @@ $ax += cidrblock($address,'209.148.95.0/24','HostDime.com Inc, #3 HE Rank (ASN-A
 $ax += cidrblock($address,'212.18.224.0/20','HostDime.com Inc, #3 HE Rank (ASN-AS33182-69). ');
 
 
-// Aruba S.p.A. (updated 2016.02.27 / checked 2016.03.28)
-// AS30548, AS31034, AS199653, AS394189
-$ax += cidrblock($address,'5.249.128.0/19','Aruba S.p.A. (ASN-ARUBA-00). ');
-$ax += cidrblock($address,'31.11.32.0/21','Aruba S.p.A. (ASN-ARUBA-01). ');
-$ax += cidrblock($address,'31.14.128.0/20','Aruba S.p.A. (ASN-ARUBA-02). ');
-$ax += cidrblock($address,'46.37.0.0/19','Aruba S.p.A. (ASN-ARUBA-03). ');
-$ax += cidrblock($address,'62.149.128.0/17','Aruba S.p.A. (ASN-ARUBA-04). ');
-$ax += cidrblock($address,'66.71.128.0/18','Aruba S.p.A. (ASN-ARUBA-05). ');
-$ax += cidrblock($address,'77.81.224.0/20','Aruba S.p.A. (ASN-ARUBA-06). ');
-$ax += cidrblock($address,'77.223.16.0/20','Aruba S.p.A. (ASN-ARUBA-07). ');
-$ax += cidrblock($address,'80.88.80.0/20','Aruba S.p.A. (ASN-ARUBA-08). ');
-$ax += cidrblock($address,'82.102.4.0/24','Aruba S.p.A. (ASN-ARUBA-09). ');
-$ax += cidrblock($address,'85.235.128.0/19','Aruba S.p.A. (ASN-ARUBA-10). ');
-$ax += cidrblock($address,'89.36.208.0/21','Aruba S.p.A. (ASN-ARUBA-11). ');
-$ax += cidrblock($address,'89.38.148.0/22','Aruba S.p.A. (ASN-ARUBA-12). ');
-$ax += cidrblock($address,'89.40.112.0/22','Aruba S.p.A. (ASN-ARUBA-13). ');
-$ax += cidrblock($address,'89.46.64.0/20','Aruba S.p.A. (ASN-ARUBA-14). ');
-$ax += cidrblock($address,'89.46.104.0/21','Aruba S.p.A. (ASN-ARUBA-15). ');
-$ax += cidrblock($address,'89.46.192.0/21','Aruba S.p.A. (ASN-ARUBA-16). ');
-$ax += cidrblock($address,'93.186.240.0/20','Aruba S.p.A. (ASN-ARUBA-17). ');
-$ax += cidrblock($address,'94.177.160.0/19','Aruba S.p.A. (ASN-ARUBA-18). ');
-$ax += cidrblock($address,'94.177.192.0/19','Aruba S.p.A. (ASN-ARUBA-19). ');
-$ax += cidrblock($address,'94.177.224.0/20','Aruba S.p.A. (ASN-ARUBA-20). ');
-$ax += cidrblock($address,'94.177.252.0/22','Aruba S.p.A. (ASN-ARUBA-21). ');
-$ax += cidrblock($address,'95.110.128.0/17','Aruba S.p.A. (ASN-ARUBA-22). ');
-$ax += cidrblock($address,'104.36.248.0/22','Aruba S.p.A. (ASN-ARUBA-23). ');
-$ax += cidrblock($address,'109.70.240.0/21','Aruba S.p.A. (ASN-ARUBA-24). ');
-$ax += cidrblock($address,'134.255.176.0/21','Aruba S.p.A. (ASN-ARUBA-25). ');
-$ax += cidrblock($address,'178.255.241.0/24','Aruba S.p.A. (ASN-ARUBA-26). ');
-$ax += cidrblock($address,'185.5.93.0/24','Aruba S.p.A. (ASN-ARUBA-27). ');
-$ax += cidrblock($address,'185.8.48.0/22','Aruba S.p.A. (ASN-ARUBA-28). ');
-$ax += cidrblock($address,'185.35.64.0/22','Aruba S.p.A. (ASN-ARUBA-29). ');
-$ax += cidrblock($address,'185.56.8.0/22','Aruba S.p.A. (ASN-ARUBA-30). ');
-$ax += cidrblock($address,'185.57.108.0/22','Aruba S.p.A. (ASN-ARUBA-31). ');
-$ax += cidrblock($address,'185.58.116.0/22','Aruba S.p.A. (ASN-ARUBA-32). ');
-$ax += cidrblock($address,'185.58.120.0/22','Aruba S.p.A. (ASN-ARUBA-33). ');
-$ax += cidrblock($address,'185.58.192.0/22','Aruba S.p.A. (ASN-ARUBA-34). ');
-$ax += cidrblock($address,'185.62.0.0/22','Aruba S.p.A. (ASN-ARUBA-35). ');
-$ax += cidrblock($address,'188.213.160.0/20','Aruba S.p.A. (ASN-ARUBA-36). ');
-$ax += cidrblock($address,'193.254.240.0/23','Aruba S.p.A. (ASN-ARUBA-37). ');
-$ax += cidrblock($address,'194.126.148.0/23','Aruba S.p.A. (ASN-ARUBA-38). ');
-$ax += cidrblock($address,'195.128.234.0/23','Aruba S.p.A. (ASN-ARUBA-39). ');
-$ax += cidrblock($address,'195.225.168.0/22','Aruba S.p.A. (ASN-ARUBA-40). ');
-$ax += cidrblock($address,'195.234.171.0/24','Aruba S.p.A. (ASN-ARUBA-41). ');
-$ax += cidrblock($address,'195.250.34.0/24','Aruba S.p.A. (ASN-ARUBA-42). ');
-$ax += cidrblock($address,'209.227.192.0/18','Aruba S.p.A. (ASN-ARUBA-43). ');
-$ax += cidrblock($address,'217.73.224.0/20','Aruba S.p.A. (ASN-ARUBA-44). ');
+// Aruba S.p.A. / Aruba SAS (updated 2016.07.02)
+// AS30548, AS31034, AS199653, AS200185, AS394189
+$ax += cidrblock($address,'5.249.128.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-00). ');
+$ax += cidrblock($address,'31.11.32.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-01). ');
+$ax += cidrblock($address,'31.14.128.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-02). ');
+$ax += cidrblock($address,'46.37.0.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-03). ');
+$ax += cidrblock($address,'62.149.128.0/17','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-04). ');
+$ax += cidrblock($address,'66.71.128.0/18','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-05). ');
+$ax += cidrblock($address,'77.81.224.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-06). ');
+$ax += cidrblock($address,'77.223.16.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-07). ');
+$ax += cidrblock($address,'80.88.80.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-08). ');
+$ax += cidrblock($address,'82.102.4.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-09). ');
+$ax += cidrblock($address,'85.235.128.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-10). ');
+$ax += cidrblock($address,'86.105.48.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-11). ');
+$ax += cidrblock($address,'89.36.208.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-12). ');
+$ax += cidrblock($address,'89.36.216.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-13). ');
+$ax += cidrblock($address,'89.38.148.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-14). ');
+$ax += cidrblock($address,'89.40.112.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-15). ');
+$ax += cidrblock($address,'89.40.124.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-16). ');
+$ax += cidrblock($address,'89.46.64.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-17). ');
+$ax += cidrblock($address,'89.46.104.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-18). ');
+$ax += cidrblock($address,'89.46.192.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-19). ');
+$ax += cidrblock($address,'93.186.240.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-20). ');
+$ax += cidrblock($address,'94.177.160.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-21). ');
+$ax += cidrblock($address,'94.177.192.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-22). ');
+$ax += cidrblock($address,'94.177.224.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-23). ');
+$ax += cidrblock($address,'94.177.240.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-24). ');
+$ax += cidrblock($address,'95.110.128.0/17','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-25). ');
+$ax += cidrblock($address,'104.36.248.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-26). ');
+$ax += cidrblock($address,'109.70.240.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-27). ');
+$ax += cidrblock($address,'134.255.176.0/21','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-28). ');
+$ax += cidrblock($address,'178.255.241.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-29). ');
+$ax += cidrblock($address,'185.5.93.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-30). ');
+$ax += cidrblock($address,'185.8.48.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-31). ');
+$ax += cidrblock($address,'185.12.176.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-32). ');
+$ax += cidrblock($address,'185.35.64.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-33). ');
+$ax += cidrblock($address,'185.56.8.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-34). ');
+$ax += cidrblock($address,'185.57.108.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-35). ');
+$ax += cidrblock($address,'185.58.116.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-36). ');
+$ax += cidrblock($address,'185.58.120.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-37). ');
+$ax += cidrblock($address,'185.58.192.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-38). ');
+$ax += cidrblock($address,'185.62.0.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-39). ');
+$ax += cidrblock($address,'185.135.102.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-40). ');
+$ax += cidrblock($address,'188.213.160.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-41). ');
+$ax += cidrblock($address,'193.254.240.0/23','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-42). ');
+$ax += cidrblock($address,'194.126.148.0/23','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-43). ');
+$ax += cidrblock($address,'195.128.234.0/23','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-44). ');
+$ax += cidrblock($address,'195.225.168.0/22','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-45). ');
+$ax += cidrblock($address,'195.234.171.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-46). ');
+$ax += cidrblock($address,'195.250.34.0/24','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-47). ');
+$ax += cidrblock($address,'209.227.192.0/18','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-48). ');
+$ax += cidrblock($address,'217.61.0.0/18','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-49). ');
+$ax += cidrblock($address,'217.61.96.0/19','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-50). ');
+$ax += cidrblock($address,'217.73.224.0/20','Aruba S.p.A./Aruba SAS; Access denied (ASN-ARUBA-51). ');
 
 
 // ISPsystem (updated 2016.04.18)
@@ -623,14 +630,10 @@ $ax += cidrblock($address,'217.219.144.0/21','Telecommunication Infrastructure C
 $ax += cidrblock($address,'217.219.207.0/24','Telecommunication Infrastructure Company, spammy network (ASN-AS48159-208). ');
 
 
-// IPGLOBE DATACENTER (updated 2016.03.28)
+// IPGLOBE DATACENTER (updated 2016.07.02)
 // AS53225
-$ax += cidrblock($address,'131.255.140.0/22','IPGLOBE DATACENTER, spammy network (ASN-AS53225-0). ');
-$ax += cidrblock($address,'177.47.112.0/24','IPGLOBE DATACENTER, spammy network (ASN-AS53225-1). ');
-$ax += cidrblock($address,'177.137.16.0/20','IPGLOBE DATACENTER, spammy network (ASN-AS53225-2). ');
-$ax += cidrblock($address,'177.223.192.0/19','IPGLOBE DATACENTER, spammy network (ASN-AS53225-3). ');
-$ax += cidrblock($address,'186.251.128.0/20','IPGLOBE DATACENTER, spammy network (ASN-AS53225-4). ');
-$ax += cidrblock($address,'191.241.60.0/22','IPGLOBE DATACENTER, spammy network (ASN-AS53225-5). ');
+$ax += cidrblock($address,'177.137.16.0/20','IPGLOBE DATACENTER, spammy network (ASN-AS53225-0). ');
+$ax += cidrblock($address,'186.251.128.0/20','IPGLOBE DATACENTER, spammy network (ASN-AS53225-1). ');
 
 
 // Mobin Net Communication (updated 2016.05.15)
