@@ -16,8 +16,6 @@
  *
  * COPYRIGHT 2008-2016 GNU/GPL V.2 BY MIKE H.
  * FOR USE WITH ZB BLOCK OR ANY GNU/GPL V.2 COMPLIANT DERIVATIVE
- *
- * @package Maikuolan/zbb-dirty30-fork
  */
 
 $zbbversion .= ' / D30-2016-07+U.0'; // Version number goes here. (product code)-(Year)-(Month)(issue letter)(+U = Unofficial fork, non-mainlined release).(Build number)
