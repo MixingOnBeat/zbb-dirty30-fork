@@ -94,3 +94,11 @@ History/Changelog of this repository (and of those updates merged into it) is as
 - IPGLOBE DATACENTER CIDRs updated.
 - Aruba S.p.A. / Aruba SAS CIDRs updated.
 - Repository updated with new changes.
+
+#####2016-07-13
+- Telecommunication Infrastructure Company CIDRs updated.
+
+#####2016-07-20
+- Three Hutchison CIDRs updated.
+- Normalised the format used for all signature IDs.
+- Repository updated with new changes.
