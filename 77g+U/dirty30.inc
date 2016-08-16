@@ -18,7 +18,7 @@
  * FOR USE WITH ZB BLOCK OR ANY GNU/GPL V.2 COMPLIANT DERIVATIVE
  */
 
-$zbbversion .= ' / D30-2016-07+U.1'; // Version number goes here. (product code)-(Year)-(Month)(issue letter)(+U = Unofficial fork, non-mainlined release).(Build number)
+$zbbversion .= ' / D30-2016-08+U.0'; // Version number goes here. (product code)-(Year)-(Month)(issue letter)(+U = Unofficial fork, non-mainlined release).(Build number)
 
 // *php 5 fix
 global $whyblockout, $ax;
@@ -217,18 +217,20 @@ $ax += cidrblock($address, '213.5.184.0/21', 'ISPsystem (ASN-29182-ISPSYSTEM-26)
 $ax += cidrblock($address, '213.159.208.0/21', 'ISPsystem (ASN-29182-ISPSYSTEM-27). ');
 
 
-// Hostinger International (updated 2016.01.18 / checked 2016.04.06)
+// Hostinger International (updated 2016.08.16)
 // AS47583
-$ax += cidrblock($address, '31.170.160.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-0). ');
-$ax += cidrblock($address, '31.220.16.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-1). ');
-$ax += cidrblock($address, '31.220.48.0/20', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-2). ');
-$ax += cidrblock($address, '31.220.104.0/22', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-3). ');
-$ax += cidrblock($address, '31.220.108.0/23', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-4). ');
-$ax += cidrblock($address, '31.220.110.0/24', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-5). ');
-$ax += cidrblock($address, '93.188.160.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-6). ');
-$ax += cidrblock($address, '185.28.20.0/22', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-7). ');
-$ax += cidrblock($address, '195.110.58.0/23', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-8). ');
-$ax += cidrblock($address, '212.1.208.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-9). ');
+$ax += cidrblock($address, '31.170.160.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-00). ');
+$ax += cidrblock($address, '31.220.16.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-01). ');
+$ax += cidrblock($address, '31.220.48.0/20', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-02). ');
+$ax += cidrblock($address, '31.220.104.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-03). ');
+$ax += cidrblock($address, '93.188.160.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-04). ');
+$ax += cidrblock($address, '153.92.0.0/24', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-05). ');
+$ax += cidrblock($address, '153.92.2.0/24', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-06). ');
+$ax += cidrblock($address, '153.92.8.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-07). ');
+$ax += cidrblock($address, '156.67.208.0/20', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-08). ');
+$ax += cidrblock($address, '185.28.20.0/22', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-09). ');
+$ax += cidrblock($address, '195.110.58.0/23', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-10). ');
+$ax += cidrblock($address, '212.1.208.0/21', 'Hostinger International; Access denied (ASN-47583-HOSTINGER-11). ');
 
 
 // CloudFlare, Inc. (updated 2016.05.15)

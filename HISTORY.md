@@ -102,3 +102,9 @@ History/Changelog of this repository (and of those updates merged into it) is as
 - Three Hutchison CIDRs updated.
 - Normalised the format used for all signature IDs.
 - Repository updated with new changes.
+
+#####2016-08-16
+- Hostinger International CIDRs updated.
+
+#####2016-08-17
+- Repository updated with new changes.
