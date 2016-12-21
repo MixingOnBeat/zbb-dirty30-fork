@@ -76,3 +76,35 @@ History/Changelog of this repository (and of those updates merged into it) is as
 
 #####2016-04-22
 - Repository updated with new changes.
+
+#####2016-05-15
+- CloudFlare CIDRs updated.
+- Mobin Net Communication CIDRs updated.
+- Three Hutchison CIDRs updated.
+- H1 LLC CIDRs updated.
+- FriendFinder Networks CIDRs updated (new ASNs).
+- OBEC CIDRs updated.
+- Voxility CIDRs updated.
+- PARSONLINE CIDRs updated.
+- Hesabgar Pardaz Gharb Co. CIDRs updated.
+- PT Excelcomindo Pratama CIDRs updated.
+- Repository updated with new changes.
+
+#####2016-07-02
+- IPGLOBE DATACENTER CIDRs updated.
+- Aruba S.p.A. / Aruba SAS CIDRs updated.
+- Repository updated with new changes.
+
+#####2016-07-13
+- Telecommunication Infrastructure Company CIDRs updated.
+
+#####2016-07-20
+- Three Hutchison CIDRs updated.
+- Normalised the format used for all signature IDs.
+- Repository updated with new changes.
+
+#####2016-08-16
+- Hostinger International CIDRs updated.
+
+#####2016-08-17
+- Repository updated with new changes.
